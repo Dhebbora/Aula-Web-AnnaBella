@@ -1,0 +1,92 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Anna Bella - Contato</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">	
+	</head>
+
+	<body>
+		<header id="menu">
+			<a href="index.html">HOME</a> | 
+			<a href="biografia.html">BIOGRAFIA</a> | 
+			<a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a> | 
+			<a href="contato.html">CONTATO</a> 	
+		</header>
+
+		<section id="principal">
+			<img class="img-capa" src="imagens/capa.png">
+
+			<div id="conteudo"><!-- inicio conteudo -->
+				<h1 class="txt-card">preencha o formulário para se cadastrar</h1>
+				<p class="txt-p-cont">Os campos com (<strong> * </strong>) são obrigatórios</p>
+				
+				<section class="container-cont">
+					<form class="for-cont" action="submit">
+						<div class="card-form-cont">
+							<label for="nome">Nome do Modelo*</label>
+							<input class="ipt-cont txt-cont-dn" type="text" name="Nome do Modelo*" id="nome">
+							<label for="sobrenome">Sobrenome*</label>
+							<input  class="ipt-cont txt-cont-dn" type="text" name="sobreome do Modelo*" id="sobrenome">
+							<label for="cel">Telefone/celular</label>
+							<input  class="ipt-cont txt-cont-dn" type="text" name="Nome do Modelo*" id="cel">
+							<label for="e-mail">Nome do Modelo*</label>
+							<input  class="ipt-cont txt-cont-dn" type="email" name="Nome do Modelo*" id="email">
+						</div>
+						<br>
+						<div>
+							<p><b>Sexo:</b></p>
+							<label>Masculino</label>
+							<input class="ipt-sex-cont" type="radio" id="sexo-m" name="sexo" value="Masculino">
+							<label>Feminino</label>
+							<input class="ipt-sex-cont" type="radio" id="sexo-f" name="sexo" value="Feminino">
+						</div>
+						<br>
+						<p><b>Data nascimento:</b></p><br>
+						<input class="ipt-cont txt-cont-dn" type='date' id='dtnasc' name='dtnasc'>
+						<br><br>
+						<p><b>Peso:</b></p><br>
+						0<input type="range" id="peso" name="peso" min="0" max="200">200
+						<br><br>
+						<label><b>Estado: </b></label>
+						<select id="estado" name="estado">
+							<option>Recife</option>
+							<option>RJ</option>
+							<option>São Paulo</option>
+							<option>Curitiba</option>
+							<option>Maranhão</option>
+							<option>Fortaleza</option>
+						</select>
+						<br><br><br>
+						<button class="bnt-cont" type="submit">Enviar o seu Cadastro</button>
+					</form>
+
+					<img class="img-cont" src="imagens/camp-10">
+
+
+				</section>
+				
+
+				<section>
+					<h1 class="txt-card">ATENÇÃO</h1>
+					<ol class="lista-cont">
+						<li>Se o modelo for menor de idade, deverá ser preenchido o nome dos pais ou responsável maior de idade. </li>
+						<li>Se por acaso os pais ou o responsável quiserem cadastrar mais de um filho ou filha menores, os cadastros deverão ser feitos individualmente utilizando ENDEREÇOS DE EMAIL DIFERENTES. Se utilizar o mesmo email, o segundo cadastro irá substituir o primeiro.</li>
+						<li>Este cadastro é exclusivo para modelos. Não contratamos funcionários através deste formulário.</li>
+						<li> Preencha corretamente todos os campos, especialmente o Telefone com código de área, exemplo (11) 99999-9999 ou (11) 5555-5555 para telefones fixos. Verifique também se a sua data de nascimento está correta.</li>
+						<li>Verifique se o seu email foi digitado corretamente pois o sistema não permitrá a conclusão do cadastro caso o preenchimento esteja incorreto.</li>
+						<li>Caso você ainda tenha alguma dúvida, entre em contato com a nossa equipe, ficaremos felizes em ajudar. </li>
+					</ol>
+				</section>
+			</div><!-- fim conteudo -->
+		</section>
+
+		<footer id="rodape">
+			<h4>Todos os direitos reservados</h4>
+		</footer>
+
+
+	</body>
+
+</html>
